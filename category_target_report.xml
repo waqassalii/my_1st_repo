@@ -47,6 +47,14 @@
                 name="category_target.report_category_target_view"
                 file="category_target.report_category_target_view"
                 report_type="qweb-pdf"/>
+<!--        creating the report action for git test-->
+        <report
+                id="report_category_target_id"
+                model="category.target"
+                string="Category Report"
+                name="category_target.report_category_target_view"
+                file="category_target.report_category_target_view"
+                report_type="qweb-pdf"/>
 
     </data>
 </odoo>
